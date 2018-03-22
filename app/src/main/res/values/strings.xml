@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Soul Melody</string>
+    <string name="duration">2:40</string>
+    <string name="artistDef">Damon Albarn</string>
+    <string name="songDef">Sweet home Alabama</string>
+</resources>

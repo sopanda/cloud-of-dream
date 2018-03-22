@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="act_import_files">#8A4B42</color>
+    <color name="btn_import_files">#979797</color>
+    <color name="gray">#979797</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darker_gray">#1F1D1E</color>
+    <color name="dark_gray">#ff403e3f</color>
+    <color name="blue">#72BAE7</color>
+    <color name="bg">#edeef0</color>
+    <color name="head">#507299</color>
+</resources>

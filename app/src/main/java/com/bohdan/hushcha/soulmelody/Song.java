@@ -31,10 +31,6 @@ public class Song
         this.mSongName = mSongName;
     }
 
-    public String getSongFullPath() {
-        return mSongFullPath;
-    }
-
     public void setSongFullPath(String mSongFullPath) {
         this.mSongFullPath = mSongFullPath;
     }
@@ -55,17 +51,10 @@ public class Song
         this.mSongDuration = mSongDuration;
     }
 
-    public int getSongId() {
-        return mSongId;
-    }
-
     public void setSongId(int mSongId) {
         this.mSongId = mSongId;
     }
 
     public void setSongUri(Uri uri){ this.mSongUri = uri; }
 
-    public Uri getSongUri(){
-        return this.mSongUri;
-    }
 }

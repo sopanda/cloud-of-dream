@@ -73,7 +73,6 @@ public class ActivityDisplaySongs extends AppCompatActivity implements View.OnCl
                         String data = cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.DISPLAY_NAME));
                         String[] res = data.split("\\.");
                         song.setSongName(res[0]);
-                        //Log.d("test",res[0] );
                         song.setSongFullPath(cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.DATA)));
                         song.setSongId(cursor.getInt(cursor.getColumnIndex(MediaStore.Audio.Media._ID)));
                         song.setSongFullPath(cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.DATA)));

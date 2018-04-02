@@ -5,7 +5,6 @@ package com.bohdan.hushcha.soulmelody;
  */
 
 import android.content.Context;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,6 +41,7 @@ public class SongListAdapter extends BaseAdapter
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
+            //Layout inflate for list item
             convertView = LayoutInflater.from(mContext).inflate(R.layout.song_list_item, null);
         }
 
@@ -63,5 +63,13 @@ public class SongListAdapter extends BaseAdapter
     public void setSongsList(ArrayList<Song> list) {
         songList = list;
         this.notifyDataSetChanged();
+    }
+
+    private class ViewHolder
+    {
+        ImageView mImgSong;
+        TextView mtxtSongName;
+        TextView mTxtSongAlbumName;
+        TextView mTxtSongDuration;
     }
 }

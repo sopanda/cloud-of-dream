@@ -13,3 +13,8 @@ App imports all audio files from the internal memory and SD-card. Player functio
 * Next
 * Previous
 
+Some screenshots:
+
+![Main](../master/documentation/pobrane.png)
+![List](../master/documentation/pobrane%20(1).png)
+![Player](../master/documentation/pobrane%20(2).png)
